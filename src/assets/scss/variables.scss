@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "alien";
+    src: url(../../../font/Alien\ Invader.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "alien-italic";
+    src: url(../../../font/Alien\ Invader\ Italic.otf) format('opentype');
+}
+
+$background: #1a8db04b;
+$nav: #0e5091;
+$cor2: #45bce0;
+$cor3: #115A70;
+$cor4: #45bce044;
+$cor5: #1a8db02d;
+
+$fonte-padrao: arial, verdana, helvetica sans-serif;
+$font-destaque: 'bebas neue', cursive;
+$font-alien: 'alien';
+$font-alien-italic: 'alien-italic';

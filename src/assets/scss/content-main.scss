@@ -1,0 +1,38 @@
+@import 'variables.scss';
+
+.content-main {
+    padding-bottom: 30px;
+
+    h2 {
+        margin: auto;
+        text-align: center;
+        background-color: $cor2;
+        margin-bottom: 30px;
+        max-width: 700px;
+        min-width: 400px;
+    }
+
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+
+    a:hover {
+        color: rgb(73, 160, 189);
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.3rem;
+        width: 96%;
+        margin-bottom: 10px;
+        padding: 17px;
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 5px 5px 5px 5px;
+    }
+}

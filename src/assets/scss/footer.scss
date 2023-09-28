@@ -1,0 +1,22 @@
+@import 'variables.scss';
+
+footer {
+    text-align: center;
+    background-color: $nav;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    letter-spacing: .5px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+
+    }
+}
